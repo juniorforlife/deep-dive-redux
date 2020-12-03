@@ -1,0 +1,31 @@
+{
+  "name": "deep-dive-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorforlife/deep-dive-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniorforlife/deep-dive-redux/issues"
+  },
+  "homepage": "https://github.com/juniorforlife/deep-dive-redux#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "symbol-observable": "^3.0.0"
+  }
+}
