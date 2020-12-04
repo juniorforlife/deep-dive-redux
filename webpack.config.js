@@ -5,11 +5,11 @@ module.exports = {
  mode: "none",
  entry: "./index.js",
  output: {
-   path: __dirname + '/build',
+   path: __dirname + '/dist',
    filename: "index.bundle.js"
  },
  devServer: {
-   contentBase: path.join(__dirname, 'build')
+   contentBase: path.join(__dirname, 'dist')
  },
  module: {
    rules: [

@@ -1,2 +1,1 @@
-import reduxExperiments from './experiments/redux-experiments'
-reduxExperiments()
+import './experiments/redux-experiments'
